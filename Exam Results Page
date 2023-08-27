@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Öğrenci Not Bilgileri</title>
+
+
+    </head>
+    <body>
+        <h1>Sınav Notları</h1>
+        <h2>Güncel Sınavlar</h2>
+        <p>Jeodezi: 100<br/>
+            Uzaktan Algılama: 90<br/>
+            Photogrametry: 70<br/>
+            Surveying: 80<br/>
+
+        </p>
+
+
+    </body>
+</html>
