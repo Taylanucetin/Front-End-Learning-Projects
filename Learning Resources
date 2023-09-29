@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Learning Progres</title>
+
+    <style>
+        *{
+            font-size: 20px;
+        }
+        
+        
+        .title{
+            text-align: center;
+            color:rgb(130, 15, 141);
+            text-decoration: underline;
+            font-size: 40px;
+            
+            
+        }
+        .listebası{
+            
+            color: rgb(17, 78, 209);
+            font-size: 30px;
+            text-align: center;
+            font-size: 40px;
+            
+        }
+        a{
+            background-color: rgb(211, 151, 216);
+            padding: 10px 1px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;   
+        }
+        body{
+            background-image:url(https://seeklogo.com/images/C/css3-logo-647BAA43FE-seeklogo.com.png) ;
+            background-size: 100px;
+            background-repeat: no-repeat;
+            background-position: right top;
+        }
+        
+        
+        
+        
+    </style>
+
+
+</head>
+<body>
+    
+    <h1 class="title"> Learning Steps  </h1>
+    <ul>
+        <li class="listebası">Temel Seviye CSS</li>
+            <ol>
+
+                <li class="a">What is CSS3?</li>
+                <a href="https://www.geeksforgeeks.org/difference-between-css-and-css3/" target="_blank">Related Link</a>
+                <ul>
+                    CSS3 is the latest version of the Cascading
+                     Style Sheets (CSS) language. 
+                     It is used to style and format web pages,
+                      and it includes many new features and
+                       improvements over CSS2.</ul>
+                <li class="b">CSS Using Methods</li>
+                <a href="https://www.w3schools.com/css/css_howto.asp" target="_blank"> W3 Schools <Link:touch></Link:touch></a>
+                <ul>CSS basic selectors are used to target HTML
+                     elements on a web page. There are three main
+                      types of basic selectors:<br/>
+                      <li>Element Selectors</li>
+                      <li>Class Selectors</li>
+                      <li>ID Selectors</li>                   
+                    </ul>
+                <li class="c">Hierarchy</li>
+                <a href="https://www.w3schools.com/css/css_comments.asp" target="_blank">W3 Schools Link</a>
+                <ul>CSS3 hierarchy refers to the order in
+                     which CSS rules are applied to HTML elements.
+                      When there are multiple CSS rules 
+                      that match a single HTML element,
+                       the rule with the highest specificity
+                        will be applied.</ul>
+                <li class="d">Web Development Tool</li>
+                <a href="https://developer.chrome.com/docs/devtools/" target="_blank">Chrome Link</a>
+                <ul>
+                    A web development tool is a software
+                     application that helps developers create
+                      and maintain websites. Web development tools
+                       can be used for a variety of tasks, such as:</ul>
+                       <ul>
+                        <li>Writing and editing HTML, CSS, and JavaScript code
+                            <li>Debugging code and identifying errors
+                                <li>Optimizing websites for performance and accessibility
+                                    <li>Deploying websites to production servers
+                        </li>
+                       </ul>
+            </ol>           
+                
+           
+
+    </ul>
+    
+    
+</body>
+</html>
