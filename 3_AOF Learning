@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .title {
+            text-align: center;
+            color: rgb(173, 111, 231);
+            background-color: rgb(236, 226, 226);
+        }
+
+        /*There I have create a title steps*/
+        
+        /* .subtitle {
+            color: rgb(153, 17, 17);
+        }
+        .thirdtitle{
+            color: blue;
+            font-size: 30px;
+            
+        } */
+        .p1{
+            color: orangered;
+            background-color: lightyellow;
+            text-align: right;
+        }
+        a:link, a:visited {
+            background-color: rgb(202, 37, 153);
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        a:hover, a:active {
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1 class="title"> Learning Steps</h1>
+    <!-- <h2 class="subtitle"> <i>Second Title</i></h2>
+    <h3 class="thirdtitle"> <b>Third Title</b></h3> -->
+    <p class="p1"> Lorem ipsum dolor,<br>
+         sit amet consectetur adipisicing elit. Adipisci, debitis.</p>
+         
+         <!-- The Link added have done. -->
+         <a href="https://www.w3schools.com/html/html_comments.asp"
+          target="_blank">W3schools</a>
+          <a href="./gorsel/indir.jpeg">squirrel</a>
+          
+ 
+ 
+         <!-- The Lists properties created under paragraphs -->
+
+    <!-- <h2>Lists</h2>
+        <ol type="A">
+            <li><b>Surveying</b></li>
+            <li>Geodesy</li>
+            <li><i>Remote Sensing</i></li>
+        </ol>
+        <ol type="I">
+            <li><b>Photogrammtry</b></li>
+            <li>GIS</li>
+            <li><i>GNSS</i></li>
+        </ol>
+        <h3>Friends List</h3>
+            <ul>
+                <li>Mert</li>
+                <li>Burcu</li>
+                <li>Sena</li>
+            </ul>
+        <h3>Days</h3>
+            <dl>
+                <li>Sunday</li>
+                <li>Monday</li>
+                <li>Thursday</li>
+            </dl>
+
+        <h3>months</h3>
+            <ul type="circle">
+                <li>October</li>
+            </ul> -->
+    
+</body>
+</html>
