@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Flexbox Site</title>
+
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 75%;
+            margin: 0;
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 700px;
+            background-color: rgb(109, 25, 148);
+        }
+
+        .lecture {
+            text-align: center;
+            background-color: rgb(226, 236, 217);
+            width: 300px;
+            height: 300px;
+            border: 1px dotted black;
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+       
+
+        
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lecture">
+            <h1>Geodesy</h1>
+            <p>The branch of mathematics dealing with the shape<br>
+                 and area of the earth or large portions of it.</p>
+        </div>
+        <div class="lecture">
+            <h1>Remote Sensing</h1>
+            <p>The process of detecting and monitoring <br>
+                 the physical characteristics of an area <br>
+                  by measuring its reflected and emitted <br>
+                   radiation at a distance</p>
+        </div>
+        <div class="lecture">
+            <h1>Photogrametry</h1>
+            <p>Photogrammetry is the science and <br>
+                technology of obtaining reliable information <br>
+                 about physical objects and the environment <br>
+                  through the process of recording, measuring <br>
+                   and interpreting photographic images and <br>
+                    patterns of electromagnetic radiant imagery <br>
+                     and other phenomena</p>
+        
+                    
+        </div>
+        <div class="lecture">
+
+            <img src="./İmages/t11.jpg" alt="İTÜ Logo">
+            <p>İTÜ Logo</p>
+        </div>
+
+        <div class="lecture">
+
+            <video width="300" height="300"  controls autoplay>
+                <source src="/ilk_deneme/Videos/Liana Liberato, actress, To the Stars.mp4">
+            </video>
+        </div>
+
+       
+        
+
+            
+
+      
+       
+
+    </div>
+    
+</body>
+</html>
