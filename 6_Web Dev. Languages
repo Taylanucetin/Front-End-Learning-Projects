@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+
+        .title {
+            text-align: center;
+            color: rgb(232, 22, 240);
+            background-color: rgb(202, 226, 113);
+            background-size:auto;
+            border-radius: 100px;
+            padding: 0;
+            margin: 0px;
+        }
+
+        /*There I have create a title steps*/
+        
+        /* .subtitle {
+            color: rgb(153, 17, 17);
+        }
+        .thirdtitle{
+            color: blue;
+            font-size: 30px;
+            
+        } */
+        /* .p1{
+            color: orangered;
+            background-color: lightyellow;
+            text-align: right;a
+        } */
+
+        
+        .container1 {
+            width: 250px;
+            margin: 0 auto;
+            display: inline-block;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            height: 400px;
+            background-color: black;
+        }
+
+        .container2 {
+            width: 250px;
+            margin: 0 auto;
+            display: inline-block;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            height: 400px;
+            background-color: black;
+        }
+        
+
+        .box {
+            text-align: center;
+            background-color: orangered;
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            margin: 10px;
+
+
+        }
+
+        
+
+        a {
+            background-color: black;
+        }
+
+        
+       
+        
+
+        /* a:link, a:visited {
+            background-color: rgb(202, 37, 153);
+            color: white;
+            padding: 0px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        a:hover, a:active {
+            background-color: aqua;
+        }
+
+        a {
+            background-color: black;
+        }
+         */
+
+    </style>
+</head>
+<body>
+
+    
+
+    <!-- <h1 class="title"> Learning Steps</h1> -->
+    <!-- <h2 class="subtitle"> <i>Second Title</i></h2>
+    <h3 class="thirdtitle"> <b>Third Title</b></h3> -->
+    <!-- <p class="p1"> Lorem ipsum dolor,<br>
+         sit amet consectetur adipisicing elit. Adipisci, debitis.</p> -->
+         
+         <!-- The Link added have done. -->
+    
+    <div class="title">
+        <h1><i>W3Schools Software Types Links</i></h1>
+    </div>
+         
+        
+
+    <div class="container1">
+        LİNK BU
+        <a href="https://www.w3schools.com/html/html_comments.asp"
+         class="box" style="font-size: 35px; background-color: yellowgreen;
+         border-radius: 20px; margin-left: -70px;" target="_blank">W3Schools</a>
+
+        
+        <div class="box">HTML</div>
+        <div class="box">CSS</div>
+        <div class="box">JS</div>
+    </div>
+
+    <div class="container2">
+        <a href="https://www.youtube.com/"
+         class="box" style="font-size: 35px; background-color: yellowgreen;
+         border-radius: 20px;" target="_blank">Youtube</a>
+
+        
+        <div class="box" style="background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png) ;
+        background-size: 100px;
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-color: white;" a></div>
+        <div class="box" style="background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/340px-CSS3_logo_and_wordmark.svg.png) ;
+        background-size: 100px;
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-color: white;"></div>
+        <div class="box" style="background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png) ;
+        background-size: 100px;
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-color: white;">JS</div>
+        
+
+    </div>
+          
+ 
+ 
+         <!-- The Lists properties created under paragraphs -->
+
+    <!-- <h2>Lists</h2>
+        <ol type="A">
+            <li><b>Surveying</b></li>
+            <li>Geodesy</li>
+            <li><i>Remote Sensing</i></li>
+        </ol>
+        <ol type="I">
+            <li><b>Photogrammtry</b></li>
+            <li>GIS</li>
+            <li><i>GNSS</i></li>
+        </ol>
+        <h3>Friends List</h3>
+            <ul>
+                <li>Mert</li>
+                <li>Burcu</li>
+                <li>Sena</li>
+            </ul>
+        <h3>Days</h3>
+            <dl>
+                <li>Sunday</li>
+                <li>Monday</li>
+                <li>Thursday</li>
+            </dl>
+
+        <h3>months</h3>
+            <ul type="circle">
+                <li>October</li>
+            </ul> -->
+    
+</body>
+</html>
