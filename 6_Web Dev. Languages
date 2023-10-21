@@ -42,7 +42,7 @@
             flex-direction: row;
             justify-content: center;
             height: 400px;
-            background-color: black;
+            background-color: rgb(104, 101, 97);
         }
 
         .container2 {
@@ -53,11 +53,63 @@
             flex-direction: row;
             justify-content: center;
             height: 400px;
-            background-color: black;
+            background-color: rgb(104, 101, 97);
         }
         
 
-        .box {
+        .box1 {
+            text-align: center;
+            background-color: rgb(215, 223, 103);
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            margin: 10px;
+        
+            
+
+
+        }
+        .box2 {
+            text-align: center;
+            background-color: rgb(215, 223, 103);
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            margin: 10px;
+
+
+        }
+        .box3 {
+            text-align: center;
+            background-color: rgb(215, 223, 103);
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            margin: 10px;
+
+
+        }
+        .box4 {
+            text-align: center;
+            background-color: orangered;
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            margin: 10px;
+
+
+        }
+        .box5 {
+            text-align: center;
+            background-color: orangered;
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            margin: 10px;
+
+
+        }
+        .box6 {
             text-align: center;
             background-color: orangered;
             width: 200px;
@@ -73,6 +125,32 @@
         a {
             background-color: black;
         }
+
+        .box1 a {
+            color: white;
+            text-decoration: none;
+            background-color: purple;
+            
+        }
+
+        .box1 a:hover {
+            color: blueviolet;
+            background-color: white;
+        }
+
+        .box2 a {
+            color: white;
+            text-decoration: none;
+            background-color: purple;
+            
+        }
+
+        .box1 a:hover {
+            color: blueviolet;
+            background-color: white;
+        }
+
+        
 
         
        
@@ -122,9 +200,11 @@
          border-radius: 20px; margin-left: -70px;" target="_blank">W3Schools</a>
 
         
-        <div class="box">HTML</div>
-        <div class="box">CSS</div>
-        <div class="box">JS</div>
+        <div class="box1">
+            <p>HTML PAGE: <a href="https://www.w3schools.com/html/default.asp" target="_blank"> TIKLAYINIZ</a> </p>
+        </div>
+        <div class="box2">CSS</div>
+        <div class="box3">JS</div>
     </div>
 
     <div class="container2">
@@ -133,17 +213,18 @@
          border-radius: 20px;" target="_blank">Youtube</a>
 
         
-        <div class="box" style="background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png) ;
+        <div class="box4" style="background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png) ;
         background-size: 100px;
         background-repeat: no-repeat;
         background-position: right top;
-        background-color: white;" a></div>
-        <div class="box" style="background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/340px-CSS3_logo_and_wordmark.svg.png) ;
+        background-color: white;">
+        <a href=""></a></div>
+        <div class="box5" style="background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/340px-CSS3_logo_and_wordmark.svg.png) ;
         background-size: 100px;
         background-repeat: no-repeat;
         background-position: right top;
         background-color: white;"></div>
-        <div class="box" style="background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png) ;
+        <div class="box6" style="background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png) ;
         background-size: 100px;
         background-repeat: no-repeat;
         background-position: right top;
