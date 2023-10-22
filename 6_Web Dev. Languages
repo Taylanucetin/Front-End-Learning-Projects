@@ -99,6 +99,12 @@
 
 
         }
+        .box4 a:hover {
+            background-color: red;
+
+
+
+        }
         .box5 {
             text-align: center;
             background-color: orangered;
@@ -145,7 +151,19 @@
             
         }
 
-        .box1 a:hover {
+        .box2 a:hover {
+            color: blueviolet;
+            background-color: white;
+        }
+
+        .box3 a {
+            color: white;
+            text-decoration: none;
+            background-color: purple;
+            
+        }
+
+        .box3 a:hover {
             color: blueviolet;
             background-color: white;
         }
@@ -201,10 +219,14 @@
 
         
         <div class="box1">
-            <p>HTML PAGE: <a href="https://www.w3schools.com/html/default.asp" target="_blank"> TIKLAYINIZ</a> </p>
+            <p>HTML PAGE: <a href="https://www.w3schools.com/css/default.asp" target="_blank"> TIKLAYINIZ</a> </p>
         </div>
-        <div class="box2">CSS</div>
-        <div class="box3">JS</div>
+        <div class="box2">
+             <p>CSS PAGE: <a href="https://www.w3schools.com/html/default.asp" target="_blank"> TIKLAYINIZ</a></p>
+        </div>
+        <div class="box3">
+             <p>JS PAGE: <a href="https://www.w3schools.com/js/default.asp" target="_blank"> TIKLAYINIZ</a></p>
+        </div>
     </div>
 
     <div class="container2">
